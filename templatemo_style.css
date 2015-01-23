@@ -9,7 +9,8 @@ body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 12px;
 	color: #000000;
-	background: #0060F0;
+	_background: #0060F0;
+	background: url(images/templatemo_background.jpg) top center no-repeat;
 }
 		
 a:link, a:visited { color: #000000; text-decoration: none; font-weight: bold; } 
@@ -135,13 +136,13 @@ h4 {
 	clear: both;
 	width: 100%;
 	margin: 0 auto;
-	background: url(images/templatemo_background.jpg) top center no-repeat;
+	_background: url(images/templatemo_background.jpg) top center no-repeat;
 }
 
 #templatemo_content {
 	width: 960px;
 	margin: 0 auto;
-	background: url(images/templatemo_background.jpg) top center no-repeat;
+	_background: url(images/templatemo_background.jpg) top center no-repeat;
 }
 
 #main_column {
