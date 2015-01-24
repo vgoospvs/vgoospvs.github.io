@@ -9,7 +9,7 @@ body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 12px;
 	color: #000000;
-	background: #0060F0;
+	background: url(images/templatemo_background.jpg) top center no-repeat;
 }
 		
 a:link, a:visited { color: #000000; text-decoration: none; font-weight: bold; } 
@@ -114,7 +114,6 @@ h4 {
 #templatemo_menu ul li a {
 	float: left;
 	display: block;
-	_padding-top: 20px;
 	padding: 0 5px;
 	margin: 0 5px;
 	text-align: center;
@@ -135,13 +134,11 @@ h4 {
 	clear: both;
 	width: 100%;
 	margin: 0 auto;
-	background: url(images/templatemo_background.jpg) top center no-repeat;
 }
 
 #templatemo_content {
 	width: 960px;
 	margin: 0 auto;
-	background: url(images/templatemo_background.jpg) top center no-repeat;
 }
 
 #main_column {
@@ -183,7 +180,6 @@ h4 {
 	width: 480px;
 }
 
-
 .section_w350 {
 	clear: both;
 	width: 350px;
@@ -211,6 +207,5 @@ h4 {
 	padding: 10px 0;
 	text-align: left;
 }
-
 
 /* end of footer */
