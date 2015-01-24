@@ -1,0 +1,37 @@
+---
+layout: page2
+---
+<style TYPE="text/css">
+.gallery-image-wrapper {
+  height: 300px;
+  width: 300px;
+  display: block;
+  float:left;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  position: relative;
+  text-align: center;
+}
+.gallery-image {
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  max-height: 100%;
+  max-width: 100%;
+}
+</style>
+<h1><a href="{{ site.gallery.dir }}/index.html">Галерея</a></h1>
+<hr />
+<div class="gallery-image-wrapper">
+</div>
+{% for image in page.images %}
+    <div class="gallery-image-wrapper">
+        <a name="{{ image }}"></a>
+        <a href="{{ site.gallery.dir }}/{{ page.gallery }}/{{ image }}"{% if site.gallery.lightbox %} rel="lightbox[{{ page.gallery }}]"{% endif %}>
+            <img class="gallery-image" src="{{ site.gallery.dir }}/{{ page.gallery }}/thumbs/{{ image }}" />
+        </a>
+    </div>
+{% endfor %}
+
