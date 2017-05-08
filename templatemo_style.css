@@ -11,8 +11,8 @@ body {
 	color: #000000;
 	background: url(images/templatemo_background.jpg) top center no-repeat;
 }
-		
-a:link, a:visited { color: #000000; text-decoration: none; font-weight: bold; } 
+
+a:link, a:visited { color: #000000; text-decoration: none; font-weight: bold; }
 a:active, a:hover { color: #000000; text-decoration: underline; }
 
 p { margin: 0px; padding: 0 0 10px 0; text-align: justify; }
@@ -30,6 +30,7 @@ h1 {
 	padding: 2px 0;
 	font-size: 30px;
 	font-weight: bold;
+	line-height: 146%;
 }
 
 h2 {
@@ -37,7 +38,7 @@ h2 {
 	padding: 2px 0 10px 0;
 	font-size: 26px;
 	font-weight: normal;
-	background: url(images/templatemo_h1_bg.html) bottom left no-repeat;	
+	background: url(images/templatemo_h1_bg.html) bottom left no-repeat;
 }
 
 h3 {
@@ -63,12 +64,12 @@ h4 {
 
 .fl_image {
 	float: left;
-	margin-right: 15px 
+	margin-right: 15px
 }
 
 .fr_image {
 	float: right;
-	margin-left: 15px 
+	margin-left: 15px
 }
 
 
@@ -119,7 +120,7 @@ h4 {
 	text-align: center;
 	font-size: 14px;
 	text-decoration: none;
-	color: #000000;	
+	color: #000000;
 	font-weight: normal;
 	border-bottom: 1px dotted #333;
 }
@@ -147,7 +148,7 @@ h4 {
 	margin: 16px 0 170px 0;
 	padding: 20px 60px;
 	background: url(images/templatemo_content_middle.png) repeat-y;
-	position: relative;	
+	position: relative;
 }
 
 #main_column .content_top {
@@ -165,7 +166,7 @@ h4 {
 	height: 170px;
 	bottom: -170px;
 	left: 0px;
-	background: url(images/templatemo_content_bottom.png) no-repeat;	
+	background: url(images/templatemo_content_bottom.png) no-repeat;
 }
 
 #side_column {
