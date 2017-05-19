@@ -13,7 +13,7 @@ layout: page
 </div>
 {% for gallery in page.galleries %}
 <div class="divwrap-catalog">
-    <a href="{{ gallery['gallery'] }}">
+    <a href="{{ site.gallery.dir }}/{{ gallery['gallery'] }}/index.html">
         <img style="max-height: 20em; max-width: 20em;" src="{{ site.gallery.dir }}/{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
     </a>
     <h3><a href="{{ site.gallery.dir }}/{{ gallery['gallery'] }}/index.html">{{ gallery["name"] }}</a></h3>
