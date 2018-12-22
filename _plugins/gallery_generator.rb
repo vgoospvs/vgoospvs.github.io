@@ -1,5 +1,5 @@
-require 'exifr'
-require 'RMagick'
+require 'exifr/jpeg'
+require 'rmagick'
 include Magick
 
 include FileUtils
