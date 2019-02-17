@@ -4,3 +4,4 @@ _site
 nohup.out
 
 photos/*/thumbs
+*_original
